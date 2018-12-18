@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Select Advisors</title>
+	</head>
+	<body>
+		<h1>Set Advisor for student</h1>
+		<table>
+			<form action="#">
+				<tr>
+					<td>Batch: *</td>
+					<td>
+						<select name="batch">
+							<option value="18th">Batch 14</option>
+							<option value="18th">Batch 15</option>
+							<option value="18th">Batch 16</option>
+							<option value="18th">Batch 17</option>
+							<option value="18th">Batch 18</option>
+							<option value="18th">Batch 19</option>
+							<option value="18th">Batch 20</option>
+							<option value="18th">Batch 21</option>
+							<option value="18th">Batch 22</option>
+							<option value="18th">Batch 23</option>
+						</select><br>
+						<small><a href="#">View Selected Batch Student List</a></small>
+					</td>
+				</tr>
+				<tr>
+					<td>Students *</td>
+					<td>
+						<select name="studentSelection">
+							<option value="all">All Student</option>
+							<option value="remaining">Remaining All Students</option>
+							<option value="single">Single Student</option>
+						</select>
+						
+					</td>
+				</tr>
+				<tr>
+					<td>Student ID </td>
+					<td>
+						<input type="text" name="sid" placeholder="000-00-000"><br>
+						<small>Optional! Only require if you select single student</small>
+					</td>
+				</tr>
+				<tr>
+					<td>Advisor ID *</td>
+					<td>
+						<input type="text" name="aid" placeholder="000-00-000"><br>
+						<small><a href="#">View Advisor info by this id</a></small>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="submit" name="assignadvisor" value="Assign Advisor"><br>
+					</td>
+				</tr>
+			</form>
+		</table>
+	</body>
+</html>

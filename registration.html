@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>Registration</title>
+</head>
+
+<body>
+	<h1>Guardian Registration Form</h1>
+	<table>
+		<form action="reg.php" method="POST">
+			<tr>
+				<td>First Name</td>
+				<td><input type="text" name="fname" placeholder="First Name"></td>
+			</tr>
+			<tr>
+				<td>Last Name</td>
+				<td><input type="text" name="lname" placeholder="Last Name"></td>
+			</tr>
+			<tr>
+				<td>Student ID</td>
+				<td><input type="text" name="stid" placeholder="000-00-0000"></td>
+			</tr>
+			<tr>
+				<td>Relation</td>
+				<td>
+					<select name="relation">
+						<option value="father">Father</option>
+						<option value="mother">Mother</option>
+						<option value="brother">Brother</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Type</td>
+				<td>
+					<select name="relation">
+						<option value="father">Father or Mother</option>
+						<option value="brother">Local Guardian</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Username</td>
+				<td><input type="text" name="Username" placeholder="Username"></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="password" placeholder="Password"></td>
+			</tr>
+			<tr>
+				<td>Confirm Password</td>
+				<td><input type="password" name="cpassword" placeholder="Password Again"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" name="login" value="Register Now"></td>
+			</tr>
+		</form>
+	</table>
+	<a href="login.html">Already Have an account?</a><br>
+	<a href="forget.php">Forget Account Password?</a>
+</body>
+</html>
